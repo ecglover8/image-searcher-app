@@ -164,7 +164,7 @@ $stmt = null;
 			function val() {
 				var q = document.forms["mainform"]["q"].value;
 				if (q == "") {
-					alert("Please enter a search term before pressing the submit button.");
+					alert("Please enter a search term before pressing submit.");
 					return false;
 				}
 			}
